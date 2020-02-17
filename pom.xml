@@ -72,4 +72,19 @@
       </plugins>
     </pluginManagement>
   </build>
+  <distributionManagement>
+    
+    <repository>
+      <id>Release</id>
+     <name>release<name>
+      <url>http://localhost:8081/repository/release/</url>
+   </repository>
+       
+   <snapshotRepository>
+      <id>Snapshots</id>
+     <name>Snapshots<name>
+      <url>http://localhost:8081/repository/Snapshots</url>
+   </snapshotRepository>
+       
+</distributionManagement>
 </project>
