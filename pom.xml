@@ -75,9 +75,9 @@
   <distributionManagement>
     
     <repository>
-      <id>Release</id>
-     <name>release</name>
-      <url>http://localhost:8081/repository/release/</url>
+      <id>Snapshot</id>
+     <name>sample-repository</name>
+      <url>http://localhost:8081/repository/sample-repository/</url>
    </repository>
        
    <snapshotRepository>
